@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Project Ignores
+.DS_Store
+data/
+tmp/
