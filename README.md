@@ -7,7 +7,11 @@ Style transfer in text using cycle-consistent WGANs
 
 ## Requirements
 Environment and Imports
-You can either use the environment.yml file to set up a virtual environment or install the required packages.      
+You can either use the environment.yml file to set up a virtual environment or install the required packages.
+
+
+## CONDA CHEATSHEET
+https://conda.io/docs/_downloads/conda-cheatsheet.pdf .    
       
 Use the environment.yml file by running:     
 conda env create -f environment.yml      
