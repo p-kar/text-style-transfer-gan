@@ -80,17 +80,17 @@ class PreprocessH5(object):
     
 # Sample invocation  
 
-# x = PreprocessH5('../data/yafc_informal.train.txt', '../data/yafc_informal.test.txt', '../data/yafc_informal.valid.txt', 'yafc_informal.h5', 'yafc_informal.json', 20)
+# x = PreprocessH5('../preprocess/yafc_informal.train.txt', '../preprocess/yafc_informal.test.txt', '../preprocess/yafc_informal.valid.txt', 'yafc_informal.h5', 'yafc_informal.json', 20)
 # x.preprocess_h5()
-# x = PreprocessH5('../data/yafc_formal.train.txt', '../data/yafc_formal.test.txt', '../data/yafc_formal.valid.txt', 'yafc_formal.h5', 'yafc_formal.json', 20)
-# x.preprocess_h5()
-
-# x = PreprocessH5('../data/bible_darby.train.txt', '../data/bible_darby.test.txt', '../data/bible_darby.valid.txt', 'bible_darby.h5', 'bible_darby.json', 20)
-# x.preprocess_h5()
-# x = PreprocessH5('../data/bible_ylt.train.txt', '../data/bible_ylt.test.txt', '../data/bible_ylt.valid.txt', 'bible_ylt.h5', 'bible_ylt.json', 20)
+# x = PreprocessH5('../preprocess/yafc_formal.train.txt', '../preprocess/yafc_formal.test.txt', '../preprocess/yafc_formal.valid.txt', 'yafc_formal.h5', 'yafc_formal.json', 20)
 # x.preprocess_h5()
 
-x = PreprocessH5('../data/shakespeare_modern.train.txt', '../data/shakespeare_modern.test.txt', '../data/shakespeare_modern.valid.txt', 'shakespeare_modern.h5', 'shakespeare_modern.json', 20)
+# x = PreprocessH5('../preprocess/bible_darby.train.txt', '../preprocess/bible_darby.test.txt', '../preprocess/bible_darby.valid.txt', 'bible_darby.h5', 'bible_darby.json', 20)
+# x.preprocess_h5()
+# x = PreprocessH5('../preprocess/bible_ylt.train.txt', '../preprocess/bible_ylt.test.txt', '../preprocess/bible_ylt.valid.txt', 'bible_ylt.h5', 'bible_ylt.json', 20)
+# x.preprocess_h5()
+
+x = PreprocessH5('../preprocess/shakespeare_modern.train.txt', '../preprocess/shakespeare_modern.test.txt', '../preprocess/shakespeare_modern.valid.txt', 'shakespeare_modern.h5', 'shakespeare_modern.json', 20)
 x.preprocess_h5()
-x = PreprocessH5('../data/shakespeare_original.train.txt', '../data/shakespeare_original.test.txt', '../data/shakespeare_original.valid.txt', 'shakespeare_original.h5', 'shakespeare_original.json', 20)
+x = PreprocessH5('../preprocess/shakespeare_original.train.txt', '../preprocess/shakespeare_original.test.txt', '../preprocess/shakespeare_original.valid.txt', 'shakespeare_original.h5', 'shakespeare_original.json', 20)
 x.preprocess_h5()
