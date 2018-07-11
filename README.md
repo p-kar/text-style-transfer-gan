@@ -6,6 +6,12 @@ Style transfer in text using cycle-consistent WGANs
 <img src="imgs/CycleGAN.png"/>
 
 ## Requirements
+Environment and Imports
+You can either use the environment.yml file to set up a virtual environment or install the required packages. 
+
+Use the environment.yml file by running:
+conda env create -f environment.yml 
+
 - Python 2.7
 - PyTorch 0.3.1
 - TensorboardX
