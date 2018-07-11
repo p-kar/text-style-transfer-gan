@@ -14,7 +14,8 @@ You can either use the environment.yml file to set up a virtual environment or i
 https://conda.io/docs/_downloads/conda-cheatsheet.pdf .    
       
 Use the environment.yml file by running:     
-conda env create -f environment.yml      
+conda env create -f environment.yml 
+source activate pytorch
 
 - Python 2.7
 - PyTorch 0.3.1
