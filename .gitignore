@@ -107,3 +107,4 @@ venv.bak/
 .DS_Store
 data/
 tmp/
+preprocess/raw_data/YAFC/
